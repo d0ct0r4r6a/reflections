@@ -9,3 +9,27 @@ What value do you think it offers?
   Staging area does not exist i.e. it is a temporary place for files to be
   stored before committing them. It shorten the duration to commit necessary
   files and to group commits with the same logic change in them.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  You type 'git status' in bash to see the status of the staging area.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+  When different features need to be implemented on the same version. Thus
+  creating separate versions of file having different features.
+
+How do the diagrams help you visualize the branch structure?
+
+  It helps clarify the relation between each commit and its parent.
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+  The result is that there is one commit having its parents from previous branches. It can reach any commit parent from previous branches. It is represented this way to visualize the parent relationship with its children.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  It solves the edited part and add it to merged commit. 
