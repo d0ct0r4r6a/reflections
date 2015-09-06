@@ -14,4 +14,10 @@ When would you use one instead of another?
 
   forks: Same as git clone but used in GitHub remote repositories.
   clones: Copy repositories from GitHub or other local repository.
-  branches: Create different path for future commits.  
+  branches: Create different path for future commits.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    You can identify what is the last version in the remote repo before any
+    future commits are made.
