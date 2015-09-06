@@ -25,4 +25,11 @@ stored locally?
 How would you collaborate without using Git or GitHub? What would be easier,
 and what would be harder?
 
-    Life would be a hell lot harder.
+  Life would be a hell lot harder.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+  Phew.. the few last videos are exhaustive. Well, when you create separate
+  branch, it allows the original version intact, so that you can revert back or
+  you can also implement other feature from the original. 
